@@ -16,7 +16,7 @@ DELETE	| /api/numbers/{id}	| Delete specified number
 - http://localhost:8000 - Number Service
 - http://localhost:8761 - Eureka Dashboard
 
-#### Build
+#### Build and Run
 ```bash
 > mvn clean package
 > docker-compose -f docker-compose.yml up
