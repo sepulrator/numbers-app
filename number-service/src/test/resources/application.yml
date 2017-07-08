@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: number-service
+  data:
+    mongodb:
+      database: numbers-db
+      port: 0

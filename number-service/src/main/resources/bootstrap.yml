@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: number-service
+  rabbitmq:
+    host: rabbitmq
+  data:
+    mongodb:
+      host: number-mongodb
+      username: user
+      password: password123
+      database: numbers-db
+      port: 27017
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://registry-server:8761/eureka/
+
+
+server:
+  context-path: /api
+  port: 8000
